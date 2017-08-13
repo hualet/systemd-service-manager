@@ -1,0 +1,8 @@
+<node>
+    <interface name="org.freedesktop.systemd1.Manager">
+        <method name="ListUnitFiles">
+            <arg type="a(ss)" direction="out"/>
+            <annotation name="org.qtproject.QtDBus.QtTypeName.Out0" value="UnitFileList"/>
+        </method>
+    </interface>
+</node>
